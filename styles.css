@@ -1,11 +1,11 @@
 :root {
-    --primary-color: rgb(200, 120, 135);
-    --secondary-color: rgb(245, 220, 230);
-    --accent-color: rgb(155, 75, 100);
-    --light-cream: rgb(255, 250, 252);
-    --warm-gold: rgb(230, 170, 190);
-    --text-color: rgb(120, 60, 80);
-    --text-light: rgb(255, 250, 252);
+    --primary-color: #f7cad0;
+    --secondary-color: #fde2e4;
+    --accent-color: #fbb1bd;
+    --light-cream: #fff8f0;
+    --warm-gold: #c8a27a;
+    --text-color: #c8a27a;
+    --text-light: #fff8f0;
 }
 
 body, html {
