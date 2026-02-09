@@ -24,11 +24,11 @@ function updateLoadingText() {
     setTimeout(() => { 
         loadingText.style.opacity = "0";
         loadingText.style.transform = "translateY(-20px)";
-    }, 1000);
+    }, 2000);
     setTimeout(() => {
         index = (index + 1) % loadWords.length;
         updateLoadingText();
-    }, 1200);
+    }, 2200);
 }
 
 function type(element, text, speed, callback) {
@@ -50,7 +50,7 @@ function fadeIn(page) {
     const duration = 2000;
     page.querySelectorAll("h1, p, button").forEach((el, i) => {
         el.style.opacity = "0"; 
-        el.style.transition = `opacity 0.5s ease-in`;
+        el.style.transition = `opacity 0.5s ease-in, background-color 0.2s ease`;
         setTimeout(() => {
             el.style.opacity = "1";
         }, i * duration);
@@ -81,7 +81,7 @@ window.addEventListener("load", function() {
             page1.classList.remove("hidden");
             fadeIn(page1, 1000);
         }, 500); 
-    }, 3000); 
+    }, 6000); 
 });
 
 document.addEventListener("visibilitychange", () => {

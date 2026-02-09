@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #f4b6c2;
+    --primary-color: #fab3c1;
     --secondary-color: #f7d6e0;
-    --accent-color: #d6a3a3;
+    --accent-color: #fb9fb1;
     --light-cream: #f1f5f9;
     --warm-gold: #8b5e5e;
     --text-color: #8b5e5e;
@@ -19,7 +19,7 @@ body, html {
     position: absolute;
     text-align: center;
     justify-content: center;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Unna", cursive;
     background-color: var(--secondary-color);
     color: var(--text-color)
 }
@@ -120,7 +120,11 @@ h1 {
 }
 
 .highlight {
-    font-family: "Kalnia Glaze", "Dancing Script", cursive;
+    font-weight: 600;
+    color: var(--accent-color);
+    border: #fb9fb1 2px solid;
+    border-radius: 9999px;
+    padding: 5px 10px;
 }
 
 .highlight-cursive {
